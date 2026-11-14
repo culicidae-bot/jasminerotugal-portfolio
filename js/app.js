@@ -108,6 +108,14 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     var themeButton = $('#theme-toggle');
+    var backToTop = $('#back-to-top');
+    if (backToTop) {
+      function updateBackToTop() {
+        backToTop.hidden = window.scrollY < 400;
+      }
+      updateBackToTop();
+      window.addEventListener('scroll', updateBackToTop, { passive: true });
+    }
     function updateThemeButton() {
       if (!themeButton) return;
       var light = root.getAttribute('data-theme') === 'ivory';
@@ -304,7 +312,7 @@
       parent.appendChild(image);
     }
     function projectCard(project, full) {
-      if (!canShow(project.title) || !canShow(project.status)) return null;
+      if (!canShow(project.title) || (!canShow(project.status) && !canShow(project.summary))) return null;
       var card = el('article', 'project-card');
       appendValue(card, 'h3', 'project-title', project.title);
       var metadata = [canShow(project.type) ? project.type : '', canShow(project.year) ? project.year : ''].filter(Boolean).join(' · ');

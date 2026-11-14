@@ -11,7 +11,7 @@ window.PORTFOLIO = {
   },
   "person": {
     "name": "Jasmine L. Rotugal",
-    "headline": "BSIT Student | Aspiring Cybersecurity & Network Security Professional",
+    "headline": "BSIT Student | Cybersecurity & Network Security",
     "intro": "Information Technology student at Isabela State University – Cauayan Campus, focused on cybersecurity and network security.",
     "emailUser": "jasminerotugal",
     "emailDomain": "gmail.com",
@@ -53,7 +53,7 @@ window.PORTFOLIO = {
     "Network Security",
     "Ethical Hacking"
   ],
-  "about": "I am a BSIT student at Isabela State University – Cauayan Campus with a strong interest in security. My learning so far comes from coursework, Cisco Networking Academy courses offered through the DICT-ITU DTC Initiative, and cybersecurity webinars and seminars listed under Credentials.",
+  "about": "BSIT student at Isabela State University – Cauayan Campus focused on cybersecurity and network security. Practices through capture-the-flag challenges and hands-on labs; completed 14 trainings, webinars, and bootcamps in 2026.",
   "skills": [
     {
       "category": "Security",
@@ -412,7 +412,7 @@ window.PORTFOLIO = {
       "type": "Group research (capstone)",
       "year": "[confirm]",
       "status": "[confirm]",
-      "summary": "Group research project for the ISUCauFA. [confirm] details",
+      "summary": "Role-based dashboards and Zero Trust-oriented security controls for the ISUCauFA financial management system.",
       "role": "[confirm]",
       "technologies": [],
       "features": [],
