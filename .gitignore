@@ -1,0 +1,22 @@
+﻿# Private files and credentials
+private/
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+dist/
+
+# Vercel configuration
+.vercel/
+
+# Local review artifacts
+.certwork-page5-review.png
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

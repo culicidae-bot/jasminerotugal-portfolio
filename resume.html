@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume | Jasmine L. Rotugal</title>
+  <meta name="description" content="Resume of Jasmine L. Rotugal, BSIT student focused on cybersecurity and network security.">
+  <meta name="theme-color" content="#0E1116">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta property="og:title" content="Resume | Jasmine L. Rotugal">
+  <meta property="og:description" content="Resume of Jasmine L. Rotugal, BSIT student focused on cybersecurity and network security.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="SITE_URL_HERE/resume">
+  <meta property="og:image" content="SITE_URL_HERE/assets/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <script src="js/content.js"></script>
+  <script src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+  <header class="site">
+    <div class="bar">
+      <a class="brand" href="index.html#top" data-bind="person.name">Jasmine L. Rotugal</a>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">Light view</button>
+      <nav class="section-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html#top">Home</a></li>
+          <li><a href="index.html#about-sec">About</a></li>
+          <li><a href="index.html#skills-sec">Skills</a></li>
+          <li><a href="index.html#cred-sec">Credentials</a></li>
+          <li><a href="index.html#proj-sec">Projects</a></li>
+          <li><a href="index.html#background-sec">Background</a></li>
+          <li><a href="index.html#contact-sec">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="page-nav" aria-label="Portfolio pages">
+        <a href="certificates.html">All certificates</a>
+        <a href="projects.html">All projects</a>
+        <a href="resume.html" aria-current="page">Resume</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <div class="wrap actions"><button id="print-btn" class="btn primary" type="button">Print / Save as PDF</button></div>
+    <article class="sheet" aria-label="Resume">
+      <h1 data-bind="person.name">Jasmine L. Rotugal</h1>
+      <div id="resume-body"></div>
+    </article>
+  </main>
+  <footer class="site">
+    <div class="wrap footer-content">
+      <nav class="section-nav" aria-label="Footer sections">
+        <ul>
+          <li><a href="index.html#top">Home</a></li>
+          <li><a href="index.html#about-sec">About</a></li>
+          <li><a href="index.html#skills-sec">Skills</a></li>
+          <li><a href="index.html#cred-sec">Credentials</a></li>
+          <li><a href="index.html#proj-sec">Projects</a></li>
+          <li><a href="index.html#background-sec">Background</a></li>
+          <li><a href="index.html#contact-sec">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="page-nav" aria-label="Portfolio pages">
+        <a href="certificates.html">All certificates</a>
+        <a href="projects.html">All projects</a>
+        <a href="resume.html" aria-current="page">Resume</a>
+      </nav>
+      <nav aria-label="More links">
+        <h2 class="footer-heading">More links</h2>
+        <ul id="more-links" class="more-links"></ul>
+      </nav>
+      <p class="footer-name" data-bind="person.name">Jasmine L. Rotugal</p>
+    </div>
+  </footer>
+</body>
+</html>
